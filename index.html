@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UP Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h2>Nous sommes toujours prêt pour votre achat🌐❤️</h2>
+<h1>✨ UP Store /TARRIFS✨</h1>
+</header>
+
+<div class="card">
+
+<h3>TOP UP (Par UID)✅</h3>
+
+<div class="item"><span>100+10💎=4,800Ar</span><button onclick="openForm('100+10💎=4,800Ar')">Acheter</button></div>
+<div class="item"><span>210+21💎=9,300Ar</span><button onclick="openForm('210+21💎=9,300Ar')">Acheter</button></div>
+<div class="item"><span>310+31💎=13,900Ar</span><button onclick="openForm('310+31💎=13,900Ar')">Acheter</button></div>
+<div class="item"><span>420+42💎=18,400Ar</span><button onclick="openForm('420+42💎=18,400Ar')">Acheter</button></div>
+<div class="item"><span>530+53💎=23,000Ar</span><button onclick="openForm('530+53💎=23,000Ar')">Acheter</button></div>
+<div class="item"><span>730+63💎=27,600Ar</span><button onclick="openForm('730+63💎=27,600Ar')">Acheter</button></div>
+<div class="item"><span>803+73💎=31,700Ar</span><button onclick="openForm('803+73💎=31,700Ar')">Acheter</button></div>
+<div class="item"><span>940+84💎=36,900Ar</span><button onclick="openForm('940+84💎=36,900Ar')">Acheter</button></div>
+<div class="item"><span>1080+108💎=45,800Ar</span><button onclick="openForm('1080+108💎=45,800Ar')">Acheter</button></div>
+
+<h3>ABONNEMENT (Par UID)✅</h3>
+
+<div class="item"><span>✨🧨 weekly 450💎 =10.500Ar</span><button onclick="openForm('weekly 450💎=10.500Ar')">Acheter</button></div>
+<div class="item"><span>✨🧨 Monthly 2600💎 =48,000Ar</span><button onclick="openForm('Monthly 2600💎=48,000Ar')">Acheter</button></div>
+
+<h3>LEVEL UP (Par UID)✅</h3>
+
+<div class="item"><span>✨0,29 $ ≈ 2,800ar 120💎(niv.6)</span><button onclick="openForm('120💎 niv6 = 2800Ar')">Acheter</button></div>
+<div class="item"><span>✨0,50 $ ≈ 3,700ar 200💎(niv10)</span><button onclick="openForm('200💎 niv10 = 3700Ar')">Acheter</button></div>
+<div class="item"><span>✨0,50 $ ≈ 3,700ar 200💎(niv15)</span><button onclick="openForm('200💎 niv15 = 3700Ar')">Acheter</button></div>
+<div class="item"><span>✨0,50 $ ≈ 3,700ar 200💎(niv20)</span><button onclick="openForm('200💎 niv20 = 3700Ar')">Acheter</button></div>
+<div class="item"><span>✨0,50 $ ≈ 3,700ar 200💎(niv25)</span><button onclick="openForm('200💎 niv25 = 3700Ar')">Acheter</button></div>
+<div class="item"><span>✨0,79 $ ≈ 5,500ar 350💎(niv 35)</span><button onclick="openForm('350💎 niv35 = 5500Ar')">Acheter</button></div>
+<div class="item"><span>✨BOYAH PASS:15.000 Ar</span><button onclick="openForm('BOOYAH PASS 15000Ar')">Acheter</button></div>
+
+</div>
+
+<!-- POPUP -->
+<div id="paymentBox">
+<div class="form">
+
+<h2>Paiement</h2>
+
+<p><b>Produit :</b> <span id="productName"></span></p>
+
+<p>Envoyez à :</p>
+<h3>Madeleine<br>0373179561</h3>
+
+<input type="text" id="uid" placeholder="Entrer UID">
+<input type="text" id="ref" placeholder="Référence paiement">
+
+<button onclick="confirmOrder()">Confirmer</button>
+<button onclick="closeForm()">Annuler</button>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
